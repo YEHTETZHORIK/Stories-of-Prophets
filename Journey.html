@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey of Prophets</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #fffac5;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+        }
+        .header {
+            font-size: 50px;
+            color: #000000;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            letter-spacing: 3px;
+        }
+        .subheader {
+            font-size: 1.5rem;
+            color: #094f41;
+            margin-bottom: 20px;
+            font-weight: 300;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .box {
+            width: 250px;
+            background-color: #1e2a47;
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            text-align: center;
+            font-weight: bold;
+        }
+        .box a {
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+        .box:hover {
+            background-color: #630726;
+            color: ;
+            transform: scale(1.05);
+        }
+        .button {
+            padding: 1rem 3rem;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #99ffb8;
+            background-color: #0a3609;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #99ffb8;
+            color: #09362d;
+            transform: scale(1.1);
+        }
+        @media (max-width: 768px) {
+            .header {
+                font-size: 2.5rem;
+            }
+            .subheader {
+                font-size: 1.2rem;
+            }
+            .button {
+                font-size: 1rem;
+                padding: 0.8rem 2rem;
+            }
+            .box {
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Journey of Prophets</div>
+    <div class="subheader">Explore the Stories of Seven Prophets</div>
+    <div class="box-container">
+        <div class="box">
+            <a href="prophet1.html">
+                <p>Prophet Adam</p>
+                <p>First prophet, the father of humanity.</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="prophet2.html">
+                <p>Prophet Noah</p>
+                <p>Sent to warn of a great flood.</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="prophet3.html">
+                <p>Prophet Ibrahim</p>
+                <p>Father of great nations and monotheism.</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="prophet4.html">
+                <p>Prophet Musa</p>
+                <p>Led the Israelites out of Egypt.</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="prophet5.html">
+                <p>Prophet Dawud</p>
+                <p>King and prophet, known for wisdom.</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="prophet6.html">
+                <p>Prophet Isa</p>
+                <p>Messiah, known for his miracles.</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="prophet7.html">
+                <p>Prophet Muhammad</p>
+                <p>Final prophet and messenger of Allah.</p>
+            </a>
+        </div>
+    </div>
+    <a href="home.html"><button class="button">Back to Home</button></a>
+</body>
+</html>
+
+
